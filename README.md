@@ -1,2 +1,4 @@
-# resumeDiego
-My resume with portfolio and some information about me as a Software Developer 
+## Resume Diego Perez
+
+- This is a small html with my information as a Software Engineer.
+- I am showing you my resume as portfolio with information about me.
