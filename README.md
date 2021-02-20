@@ -5,3 +5,4 @@
 
 ----
 
+![Image Resume](https://github.com/dieguits/resumeDiego/blob/main/index.png)
