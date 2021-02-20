@@ -2,3 +2,6 @@
 
 - This is a small html with my information as a Software Engineer.
 - I am showing you my resume as portfolio with information about me.
+
+----
+
