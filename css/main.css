@@ -1345,11 +1345,19 @@ header .logo a {
 	}
 }
 @media only screen and (max-width:600px) {
+	header {
+		display: none;
+	}
+
 	header .top-bar {
 		left: 35px;
 	}
 }
 @media only screen and (max-width:400px) {
+	header {
+		color: pink;
+	}
+
 	header .top-bar {
 		left: 25px;
 	}
@@ -1508,7 +1516,10 @@ header .logo a {
 		min-height: 660px;
 	}
 	.intro-content h1 {
-		font-size: 5.2rem;
+		font-size: 5.0rem;
+	}
+	.intro-content h3 {
+		font: 14px/1.9em 'librebaskerville-regular', sans-serif;
 	}
 	.intro-content h5 {
 		font-size: 1.8rem;
