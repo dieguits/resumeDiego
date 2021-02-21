@@ -2333,6 +2333,9 @@ header .logo a {
 	padding-top: 12rem;
 	padding-bottom: 7.2rem;
 }
+#contact p {
+	color: #ffffff;
+}
 #contact .section-intro h1 {
 	color: white;
 }
@@ -2648,7 +2651,7 @@ footer .copyright span:last-child::after {
 	right: 10px;
 	z-index: 600;
 	display: none;
-	border-radius: 30px 30px;
+	align-items: center;
 }
 #go-top a {
 	text-decoration: none;
@@ -2667,6 +2670,7 @@ footer .copyright span:last-child::after {
 	-webkit-transition: all 0.3s ease-in-out;
 	-ms-transition: all 0.3s ease-in-out;
 	transition: all 0.3s ease-in-out;
+	border-radius: 30px 30px;
 }
 #go-top a i {
 	font-size: 1.6rem;
