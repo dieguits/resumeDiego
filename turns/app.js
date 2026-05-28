@@ -56,7 +56,7 @@ function formatVersiculo(raw) {
   return raw
     .trim()
     .replace(/\s*,\s*/g, ', ')          // normalize existing commas
-    .replace(/(\d)\s+(\d)/g, '$1, $2')  // space between numbers → ", "
+    .replace(/(\d)\s+(?=\d)/g, '$1, ')  // space between numbers → ", " (all occurrences)
     .replace(/,\s*$/, '')               // trailing comma
     .replace(/^,\s*/, '');              // leading comma
 }
